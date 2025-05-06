@@ -5,45 +5,37 @@ Para ver y ejecutar el notebook, haz clic en el siguiente enlace:
 [Proyecto DS_I.ipynb - Google Colab](https://colab.research.google.com/github/JorgeTabera/CoderH_DataScienceI/blob/main/Proyecto%20DS_I.ipynb)
 
 
-Predicción y análisis de partidos internacionales de fútbol masculino
+Análisis de Aplicaciones de la Google Play Store
 Trabajo Final - Curso de Data Science - CoderHouse
 
-Este proyecto tiene como objetivo analizar datos históricos de partidos internacionales entre selecciones nacionales desde 1872 hasta 2025. A partir de este análisis, se busca responder preguntas clave sobre el rendimiento de los equipos y generar modelos predictivos que permitan estimar resultados futuros.
+Este proyecto tiene como objetivo analizar un conjunto de datos de aplicaciones disponibles en la Google Play Store. A través de distintas visualizaciones y análisis estadísticos, se busca responder preguntas clave relacionadas con el tipo de aplicaciones, su popularidad, calificaciones y otros factores relevantes para entender el comportamiento del mercado.
 
-Entre los principales objetivos del proyecto se encuentran:
+Objetivos del proyecto:
+Comparar las aplicaciones gratuitas vs. pagas según cantidad de descargas.
 
-Analizar qué selecciones tienen mayor probabilidad de ganar un partido según su historial.
+Identificar los géneros más populares y mejor calificados.
 
-Evaluar si la localía tiene un impacto significativo en el resultado.
+Evaluar si el tipo de contenido (gratuito o pago) influye en el rating.
 
-Estimar la cantidad de goles que puede anotar o recibir una selección.
+Detectar valores faltantes y tratarlos de forma adecuada.
 
-Ver si las rachas ganadoras influyen en el desempeño futuro.
+Visualizar relaciones entre variables como número de reseñas, rating e instalaciones.
 
-Identificar qué países han sido más regulares a lo largo del tiempo.
+Generar gráficos que combinen múltiples variables para obtener insights relevantes.
 
-Comparar el rendimiento de selecciones según su continente.
+Dataset utilizado:
+google_play_store_dataset.csv
+Contiene información como: nombre de la app, categoría, rating, número de reseñas, tamaño, instalaciones, tipo (free/paid), precio, clasificación por edad, género, fecha de actualización y versión mínima de Android.
 
-Para esto se utilizaron cuatro datasets:
+Herramientas utilizadas:
+Python
 
-results.csv → contiene resultados de partidos (goles, equipos, localía, fecha y tipo de torneo).
+Pandas
 
-shootouts.csv → información de tandas de penales (quién pateó primero, quién ganó).
+Matplotlib
 
-goalscorers.csv → goles anotados, autores, si fueron de penal o en contra.
+Seaborn
 
-former_names.csv → nombres anteriores de selecciones, útil para mantener consistencia histórica.
+Google Colab
 
-El proyecto fue desarrollado en Python, utilizando herramientas como Pandas, Numpy, Matplotlib, Seaborn y Scikit-learn. Se trabajó con análisis exploratorio de datos, visualizaciones y modelos de machine learning.
-
-El repositorio incluye:
-
-Carpeta con los datos originales
-
-Notebooks con el análisis y la construcción de los modelos
-
-Gráficos generados en el análisis
-
-Este trabajo fue realizado por Jorge Tabera como entrega final del curso de Data Science en CoderHouse.
-
-# CoderH_DataScienceI
+El análisis fue realizado por Jorge Tabera como entrega final del curso de Data Science en CoderHouse. El repositorio incluye el dataset, el notebook con el análisis exploratorio de datos y las visualizaciones generadas.
